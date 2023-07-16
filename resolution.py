@@ -14,9 +14,9 @@ import argparse as ap
 
 parser = ap.ArgumentParser()
 
-parser.add_argument("--quest", type=int, required=True, help="Número das questões de 1 a 13")
-parser.add_argument("--desc", action="store_true",
-                    help="Mostra o enuciado da questão e a lógica que usei para resolver as questões")
+parser.add_argument("-q", "--quest", metavar="", type=int, required=True, help="Número das questões de 1 a 13")
+parser.add_argument("-d", "--desc", action="store_true",
+                    help="Mostra o enuciado das questões e a lógica que usei para resolvê-las")
 
 args = parser.parse_args()
 
