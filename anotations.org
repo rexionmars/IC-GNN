@@ -98,6 +98,7 @@ matriz_x2 = mat1 * 2
 
 
 ** Questão 7: Calcule o determinante da mat1.
+*Solução*: aqui usei o metodo linalg.det  que vem incluso na lib Pandas, para calcular o determinante
 #+BEGIN_SRC python
 # [DOC] Numpy `linalg`: https://numpy.org/doc/stable/reference/generated/numpy.linalg.det.html
 determinant = np.linalg.det(mat1)
