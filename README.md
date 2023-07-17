@@ -8,8 +8,8 @@ Passo 1: Clonar o repositório
 ```sh
 git clonehttps://github.com/rexionmars/IC-GNN.git && cd IC-NN
 ```
-Passo 2: Instalar as dependências
-OBS: lembre-se de ativar o seu ambiente virtal
+Passo 2: Instalar as dependências<br>
+_OBS: lembre-se de ativar o seu ambiente virtal_
 ```sh
 pip install -r requirements.txt
 ```
