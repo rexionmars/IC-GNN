@@ -1,22 +1,34 @@
-# IC-GNN Get started
+<div align=center>
+  <h1>IC-GNN Get started</h1>
+  <p>Undergraduate Research Project in Generative Neural Networks.</p>
+</div>
 
-Passo 1: Instalar o venv (ubunto e derivados)
-```sh
-sudo apt install -y python3-venv
-```
-Passo 2: Criar um Ambiente Virtual
-```sh
-python3.6 -m venv PyVenv
-```
-Passo 3: Ativar o Ambiente Virtual
-```sh
-source PyVenv/bin/activate
-```
-Passo 4: Clonar o repositório
+## Como instalar ?
+Passo 1: Clonar o repositório
 ```sh
 git clonehttps://github.com/rexionmars/IC-GNN.git && cd IC-NN
 ```
-Passo 5: Instalar as dependências
+Passo 2: Instalar as dependências
+OBS: lembre-se de ativar o seu ambiente virtal
 ```sh
 pip install -r requirements.txt
 ```
+## Como rodar o programa?
+Este script é uma aplicação command-line, logo pode ser fornecido parâmetros em sua chamada.<br>
+Para acessar as opções do programa rode:
+```sh
+python3 resolution.py --help
+```
+<img src="thumbnail/swappy-20230716_222604.png" alt="Snake logo">
+
+Exibindo as informações referente a questão desejada, usando o parâmetro opcional `--desc`.<br>
+```sh
+python3 resolution.py --quest NUMERO_DA_QUESTAO_ECOLHIDA --desc
+```
+<img src="thumbnail/swappy-20230716_222033.png" alt="Snake logo">
+
+Exibindo a solução referente a questão desejada, usando o parâmetro `--quest`.<br>
+```sh
+python3 resolution.py --quest NUMERO_DA_QUESTAO_ECOLHIDA
+```
+<img src="thumbnail/swappy-20230716_222057.png" alt="Snake logo">
