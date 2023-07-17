@@ -9,12 +9,12 @@ Passo 1: Clonar o repositório
 git clonehttps://github.com/rexionmars/IC-GNN.git && cd IC-NN
 ```
 Passo 2: Instalar as dependências<br>
-_OBS: lembre-se de ativar o seu ambiente virtal_
+_OBS: lembre-se de ativar o seu ambiente virtual_
 ```sh
 pip install -r requirements.txt
 ```
 ## Como rodar o programa?
-Este script é uma aplicação command-line, logo pode ser fornecido parâmetros em sua chamada.<br>
+Este script é uma aplicação `command-line`, logo pode ser fornecido parâmetros em sua chamada.<br>
 Para acessar as opções do programa rode:
 ```sh
 python3 resolution.py -h
