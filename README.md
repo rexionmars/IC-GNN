@@ -17,9 +17,9 @@ pip install -r requirements.txt
 Este script é uma aplicação command-line, logo pode ser fornecido parâmetros em sua chamada.<br>
 Para acessar as opções do programa rode:
 ```sh
-python3 resolution.py --help
+python3 resolution.py -h
 ```
-<img src="thumbnail/swappy-20230716_222604.png" alt="Snake logo">
+<img src="thumbnail/swappy-20230716_024447.png" alt="Snake logo">
 
 Exibindo as informações referente a questão desejada, usando o parâmetro opcional `--desc`.<br>
 ```sh
